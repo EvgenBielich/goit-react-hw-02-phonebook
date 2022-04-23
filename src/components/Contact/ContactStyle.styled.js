@@ -12,7 +12,7 @@ export const ButtonStyle = styled.button`
   color: black;
   background-color: transparent;
   border-color: black;
-  border-radius: 50%;
+  border-radius: 7px;
   cursor: pointer;
   outline: none;
   &:hover {

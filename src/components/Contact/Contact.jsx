@@ -5,7 +5,7 @@ export function Contact({ number, name, id, deleteContact}) {
 
    return (
       <ContactStyle id={id}>
-      <ButtonStyle type='button' onClick={() => deleteContact(id)}>X</ButtonStyle>
+      <ButtonStyle type='button' onClick={() => deleteContact(id)}>Delete</ButtonStyle>
          <p>{`${name}: ${number}`}</p>
       </ContactStyle>
    );
